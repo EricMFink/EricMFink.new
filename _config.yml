@@ -1,0 +1,60 @@
+---
+url: https://www.emfink.net # the base hostname & protocol for your site
+# baseurl: # the subpath of your site, e.g. /blog/
+title: Eric M. Fink
+description:  # leave blank if you don't want to display a description
+last_updated: 12 November 2023
+
+author: Eric M. Fink
+position: Associate Professor
+institution: Elon Law School
+city: Greensboro
+state: North Carolina
+email: emfink@gmail.com
+phone: 336-279-9334
+
+
+collections:
+  Songs:
+    output: true
+    permalink: /:collection/:title
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+
+# deployment
+host: localhost
+port: 4000
+
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+timezone: America/New_York
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+include: ['_pages']
+exclude: ['Gemfile.lock']
+keep_files: []
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: atom
+git:
+  branch: main
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/EricMFink.github.com/
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+anchorjs_version: "3.2.2"
+
+plugins:
+  - jekyll-spaceship
