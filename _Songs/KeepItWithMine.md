@@ -1,6 +1,6 @@
 ---
 layout: amplitudejs-single
-title: "I'll Keep it with Mine"
+title: "I'll Keep It with Mine"
 file: "KeepItWithMine"
 cover: tired
 
