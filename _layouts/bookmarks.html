@@ -6,20 +6,28 @@
 		{% include header.html %}
 		<div class="bookmarks-container">
 			<div class="bookmarks-block">
-			{% for bookmark in site.data.bookmarks %}
-			<div class="bookmark">
-				<div class="thumbnail">
-					<a href="{{ bookmark.url }}">
-						<span>
-							<h4>{{ bookmark.title }}</h4>
-						</span>
-					</a>
+				<div class="row">
+					<div class="bookmarks-column">
+						{% for bookmark in site.data.bookmarks-personal %}
+							<p><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></p>
+						{% endfor %}
+					</div>
+
+					<div class="bookmarks-column">
+						{% for bookmark in site.data.bookmarks-work %}
+							<p><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></p>
+						{% endfor %}
+					</div>
+
+					<div class="bookmarks-column">
+						{% for bookmark in site.data.bookmarks-teaching %}
+							<p><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></p>
+						{% endfor %}
+					</div>
 				</div>
 			</div>
-			{% endfor %}
-			{% include hemline.html %}
-			</div>
 		</div>
+	{% include hemline.html %}
 	</div>
 </body>
 </html>

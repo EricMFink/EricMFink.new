@@ -10,74 +10,33 @@
     margin-right: 0;
 }
 
-.bookmark {
-      box-sizing: border-box;
-      float: left;
-      vertical-align: middle;
-      width: 50%;
+/* container */
+.three-columns-grid {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-    .thumbnail {
-        overflow: hidden;
-        width: 100%;
-
-        img {
-            height: auto;
-            position: relative;
-            left: 0;
-            top: 0;
-            width: 100%;
-        }
-
-        a {
-            float: left;
-            height: 5rem;
-            position: relative;
-            width: 100%;
-
-            span {
-                display: block;
-                position: absolute;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                padding: 0 0 0 0;
-                text-align: center;
-
-                h4 {
-					font-family: $sans-font;
-					font-weight: $normal-weight;
-                    font-size: $h5;
-                    margin: 2rem 0 0 0;
-                    color: $off-white;
-                    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-                }
-
-                p {
-                    color: $off-white;
-                }
-            }
-
-            &:hover {
-                span {
-                    display: block;
-					background-color: $link-hover-color;
-                }
-            }
-        }
-    }
+* {
+	box-sizing: border-box;
   }
-
-@media screen and (min-width: 640px)  and (max-width: 899px) {
-	.bookmark .thumbnail a span h4 {
-		font-size: $h4;
-		margin: 2.35rem 0 2.35rem 0;
-	  }
-}
-@media (min-width: 900px) {
-	.bookmark .thumbnail a span h4 {
-		font-size: 1.25rem;
-		margin: 3.35rem 0 3.35rem 0;
-	  }
-}
-
+  
+  /* Create three equal columns that floats next to each other */
+  .bookmarks-column {
+	font-family: $sans-font;
+	font-weight: $normal-weight;
+	font-size: $h4;
+	margin: 2rem auto 0 auto;
+	color: $off-white;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
