@@ -1,42 +1,54 @@
 .bookmarks-container {
-    padding: 0 0;
+	padding: 0 0;
 	height: 100%;
 	background: rgba(0,0,0,0.4);
 }
 
 .bookmarks-block {
 	margin-top: 50px;
-    margin-left: 0;
-    margin-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 /* container */
 .three-columns-grid {
-    display: grid;
-    grid-auto-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	grid-auto-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 * {
 	box-sizing: border-box;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .bookmarks-column {
-	font-family: $sans-font;
-	font-weight: $normal-weight;
-	font-size: $h4;
-	margin: 2rem auto 0 auto;
-	color: $off-white;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+/* Create three equal columns that floats next to each other */
+.bookmarks-column {
 	float: left;
 	width: 33.33%;
 	padding: 10px;
-  }
+}
+
+.bookmarks-column a {
+    color: $off-white;
+    text-decoration: none;
+    &:hover {
+		color:$theme-color;
+    }
+}
+.bookmarks-column h4 {
+	font-weight: $normal-weight;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
   
-  /* Clear floats after the columns */
-  .row:after {
+/* Clear floats after the columns */
+.row:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
+}
+
+@media screen and (max-width: 699px) {
+	.bookmarks-column h4 {
+		font-size: $h5;
+	}
+}

@@ -9,19 +9,19 @@
 				<div class="row">
 					<div class="bookmarks-column">
 						{% for bookmark in site.data.bookmarks-personal %}
-							<p><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></p>
+							<h4><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h4>
 						{% endfor %}
 					</div>
 
 					<div class="bookmarks-column">
 						{% for bookmark in site.data.bookmarks-work %}
-							<p><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></p>
+							<h4><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h4>
 						{% endfor %}
 					</div>
 
 					<div class="bookmarks-column">
 						{% for bookmark in site.data.bookmarks-teaching %}
-							<p><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></p>
+							<h4><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h4>
 						{% endfor %}
 					</div>
 				</div>
