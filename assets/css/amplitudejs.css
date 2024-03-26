@@ -479,7 +479,7 @@ div#player-bottom {
 /*
   3. Layout
 */
-	body {
+	body-amplitude {
 		background-color: rgba(0, 0, 0, 0.8);
 		width: 100%;
 		max-width: 100%;

@@ -14,7 +14,16 @@
     font-size: $body-size;
     color: $theme-color;
     line-height: $header-height;
-	margin-left: 12.5%;
+	margin-left: 5%;
+    margin-bottom: 0;
+}
+.site-title-left {
+	font-family: $heading-font;
+	font-weight: $bold-weight;
+    font-size: $body-size;
+    color: $theme-color;
+    line-height: $header-height;
+	margin-left: 5%;
     margin-bottom: 0;
 }
 .site-nav {

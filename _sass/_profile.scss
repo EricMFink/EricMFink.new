@@ -127,10 +127,10 @@
 }
 
 .list-inline>li {
+    font-size: $icons-medium;
     display: inline-block;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: $icons-medium;
 }
 
 .list-inline-item {
@@ -145,12 +145,12 @@
 
 .list-inline-left {
     list-style: none;
-    font-size: 28px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
 
 .list-inline-left>li {
+    font-size: $icons-small;
     display: inline-block;
     margin: 0 0 0 0;
     padding: 0 25px 0 0;
