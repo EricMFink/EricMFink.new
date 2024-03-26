@@ -35,7 +35,6 @@
 }
 
 .profile h1 {
-    font-size: 1.6rem;
     color: $off-white;
     line-height: 1;
     margin: 0 0 1rem 0;
@@ -43,6 +42,15 @@
 }
 
 .profile h2 {
+    font-size: 1.5rem;
+	font-weight: $normal-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 2rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.profile h3 {
     font-size: 1.2rem;
 	font-weight: $normal-weight;
     color: $off-white;
@@ -50,6 +58,13 @@
     margin: 0 0 2rem 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
+
+.profile a {
+    color: $off-white;
+    text-decoration: none;
+    &:hover {
+		color:$link-hover-color;
+    }
 
 .profile1 {
     font-size: $title-size;
