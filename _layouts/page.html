@@ -2,13 +2,21 @@
 layout: default
 ---
 
+{% include header.html %}
+
 <div class="page-container">
 
-	<div class="page-header group">
-		<h1 class="page-title">{{ page.title }}</h1>
-	</div>
+<article class="group">
 
+<p class="page-title">{{ page.title}}</p>
+{% if page.subtitle %}
+<p class="page-subtitle">{{ page.subtitle}}</p>
+{% endif %}
 
 {{ content }}
 
+</article>
+
 </div>
+
+{% include hemline.html %}

@@ -1,154 +1,168 @@
-.sidenote, .marginnote { 
+
+/* Sidenotes */
+.sidenote, .marginnote {
 	float: right;
 	clear: right;
-	margin-right: -40%;
-	width: 35%;
+	margin-right: -60%;
+	width: 50%;
 	margin-top: 0;
-	margin-bottom: 0.5rem;
-}
-
-.sidenote { 
-	font-family: $sidenotes-font;
-	font-size: $smallest-size;
-	font-weight: $light-weight;
-	line-height: 1.2; 
-	vertical-align: baseline;
-	position: relative; 
-}
-
-.marginnote { 
-	font-family: $marginnotes-font;
-	font-size: $smallest-size;
-	font-weight: $light-weight;
-	line-height: 1.2; 
-	vertical-align: baseline;
-	position: relative; 
-}
-
-li .sidenote, li .marginnote{
-	margin-right: -80%; 
-} // allows for list indents in marginnotes and sidenotes
-
-blockquote .sidenote, blockquote .marginnote {
-	margin-right: -79% 
-}
-
-.sidenote-number {
-	counter-increment: sidenote-counter; 
-}
-
-.sidenote-number:after, .sidenote:before { 
-	content: counter(sidenote-counter) " ";
-	font-family: $body-font;
-	color: $contrast-color;
+	margin-bottom: 0;
+	line-height: 1.2;
 	position: relative;
-	vertical-align: baseline; 
-}
-
-.sidenote-number:after { 
-	content: '['counter(sidenote-counter)']' ;
-	font-weight: $normal-weight;
-	top: -0.3rem;
-	left: 0.1rem; 
-}
-
-.sidenote:before {
-	content: counter(sidenote-counter) ".\000a0"; // non-breaking space
-	color: $contrast-color;
-	top: 0rem; 
-} 
-
-.marginnote code, .sidenote code { 
-	font-size: 1rem; 
-}
-
-label.sidenote-number { 
-	display: inline; 
-	font-size: $smallest-size; 
-}
-
-label.margin-toggle:not(.sidenote-number) { 
-	display: none; 
-}
-
-.full-width { 
-	.sidenote, .sidenote-number, .marginnote {
-		display: none; 
-	} 
-}
-
-input.margin-toggle { 
-	display: none; 
-}
-
-
-
-@media (max-width: 760px) { 
-	label.margin-toggle:not(.sidenote-number) { 
-		display: inline; color: $contrast-color; 
 	}
-	.sidenote, .marginnote { display: none; }
-	.margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote {
-		display: block;
-		float: left;
-		left: 1rem;
-		clear: both;
-		width: 95%;
-		margin: 1rem 2.5%;
-		vertical-align: baseline;
-		position: relative; 
+  .sidenote {
+	font-family: portada, serif;
+	font-size: 0.7rem;
+	font-weight: 300;
 	}
-	label { 
-		cursor: pointer; 
+  .sidenote hr {
+	border: none;
+	opacity: 0;
+	height: 2px;
 	}
-	pre, pre code, p code, p pre code { 
-		width: 90%;
-		padding: 0; 
+  .sidenote-number {
+	counter-increment: sidenote-counter;
 	}
-	table-caption { 
-		display: block;		
-		float: right;
-		clear: both;
-		width: 98%;
-		margin-top: 1rem;
-		margin-bottom: 0.5rem;
-		margin-left: 1%;
-		margin-right: 1%;
-		vertical-align: baseline;
-		position: relative; 
+  .sidenote-number:after, .sidenote:before {
+	content: counter(sidenote-counter) " ";
+	font-family: portada, serif;
+	color: #b03a2e;
+	position: relative;
 	}
-	div.table-wrapper, table, table.booktabs { 
-		width: 85%; 
+  .sidenote-number:after {
+	content: "[" counter(sidenote-counter) "]\000a0";
+	font-size: 0.7rem;
+	top: -0.5rem;
+	left: 0.1rem;
 	}
-	div.table-wrapper { 
-		border-right: 1px solid #efefef; 
+  .sidenote:before {
+	content: counter(sidenote-counter) ".\000a0";
+	color: #b03a2e;
+	top: 0rem;
 	}
-	img { 
-		max-width: 100%; 
-	} 
-	figcaption.maincolumn-figure, figure.fullwidth figcaption { 
-		float:none; text-align: center;
+  .marginnote {
+	font-family: adelle-sans, sans-serif;
+	font-size: 0.7rem;
+	font-weight: 300;
+	color: #006400;
+	text-indent: 0em;
 	}
-	figure.fullwidth figcaption { 
-		margin-left: 0; 
+  .marginnote hr {
+	border: none;
+	opacity: 0;
+	height: 2px;
 	}
-}
-
-
+  li .sidenote, li .marginnote {
+	margin-right: -80%;
+	}
+  blockquote .sidenote, blockquote .marginnote {
+	margin-right: -66.5%;
+	font-style: normal;
+	}
+  div.table-wrapper {
+	width: 55%;
+	}
+  div.table-wrapper, table {
+	overflow: auto;
+	}
+.marginnote code, .sidenote code {
+	font-size: 0.6rem;
+	}
+pre {
+	width: 52.5%;
+	padding-left: 2.5%;
+	overflow: auto;
+	}
+.fullwidth, li.listing div {
+	max-width: 90%;
+	}
+.fullwidth .sidenote, .fullwidth .sidenote-number, .fullwidth .marginnote {
+	display: none;
+	}
 span.newthought {
 	font-variant: small-caps;
 	font-size: 1.2em;
-	letter-spacing: 0.05rem; 
-}
+	letter-spacing: 0.05rem;
+	}
+input.margin-toggle {
+	display: none;
+	}
+label.sidenote-number {
+	display: inline;
+	}
+label.margin-toggle:not(.sidenote-number) {
+	display: none;
+	}
 
+/* Epigraphs */
+/*
+div.epigraph { 
+	margin: 3.5636rem 0; 
+	}
+div.epigraph > blockquote { 
+	margin-top: 3rem;
+    margin-bottom: 3rem;
+  	}
+div.epigraph > blockquote, div.epigraph > blockquote > p { 
+	font-style: italic; 
+	}
+div.epigraph > blockquote > footer {  
+	font-style: normal;
+    width: 45%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 0;
+    margin-top: 0.4455rem;
+    margin-bottom: 3.1182rem 
+	}
+div.epigraph > blockquote > footer > cite { 
+	font-style: italic; 
+	}
+*/
 
-div.epigraph { margin: 3.5636rem 0; }
+/* Listings */
+/*
+h1.content-listing-header{
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 1.8rem;
+	}
+li.listing hr{
+	width:100%;
+	}
+.listing, .listing h3 {
+	display: inline-block;
+	margin:0;
+	}
+li.listing {
+	margin:0;
+	& p{
+		width: 100%
+		}
+	}
+li.listing:last-of-type {
+	border-bottom: none;
+	margin-bottom: 1.4rem;
+	}
+li.listing h3.new {
+	text-transform: uppercase;
+	font-style: normal;
+	}
+hr.slender {
+	border: 0;
+	height: 1px;
+	margin-top: 1.4rem;
+	margin-bottom:1.4rem;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	}
+*/
 
-div.epigraph > blockquote { margin-top: 3rem; margin-bottom: 3rem; }
-
-div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
-
-div.epigraph > blockquote > footer { font-style: normal; width: 45%; padding-left: 2.5%; padding-right: 2.5%; padding-top: 0; margin-top: 0.4455rem; margin-bottom: 3.1182rem; }
-
-div.epigraph > blockquote > footer > cite { font-style: italic; }
-
+/* Wrap long URLs in references */
+#refs a {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+  }

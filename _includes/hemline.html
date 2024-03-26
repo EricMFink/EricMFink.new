@@ -1,15 +1,16 @@
-<!-- Load jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Load jQuery
+<script src="https://code.jquery.com/jquery-{{ site.jquery_version }}.min.js"></script> -->
 
-<!-- Load Common JS -->
-<script src="https://www.emfink.net/assets/js/common.js"></script>
+<!-- Load Common JS 
+<script src="https://www.emfink.net/akademicky/assets/js/common.js"></script> -->
 
-{% if site.enable_anchorjs %}
 <!-- Load Anchor JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/{{ site.anchorjs_version }}/anchor.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
 <script>
-  anchors.options.visible = 'always';
-  anchors.add('article h2, article h3, article h4, article h5, article h6');
+   anchors.add('h2, h3, h4');
 </script>
-{% endif %}
+
+
+<!-- Table of Contents JS -->
+<script src="{{ site.baseurl }}/assets/js/toc.js"></script>
 

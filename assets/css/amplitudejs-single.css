@@ -5,16 +5,16 @@
 2. Components
 */
 div.player-header {
-  background-color: #141920;
+  background-color: #192029;
   padding: 15px;
   text-align: center;
-  height: 25px;
+  height: 50px;
   position: relative;
   margin-top: 40px;
   cursor: pointer;
   color: white;
   font-family: adelle-sans, Lato, sans-serif;
-  font-size: 14px; }
+  font-size: 1rem; }
   div.player-header img#down {
     position: absolute;
     top: 23px;
@@ -109,7 +109,7 @@ div#player-middle {
   div#player-middle div.song-artist-album {
     opacity: 0.5;
     font-family: adele-sans, Lato, sans-serif;
-    font-size: 14px;
+    font-size: .9rem;
     color: #fff;
     line-height: 16px; }
 

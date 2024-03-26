@@ -1,24 +1,3 @@
-img {
-	max-width: 100%; 
-}
-
-
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-size;
-}
-
-
-figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 3em; }
-
-figcaption { float: right; clear: right; margin-right: -50%; margin-top: 0; margin-bottom: 0; font-size: 1.0rem; line-height: 1.6; vertical-align: baseline; position: relative; max-width: 40%; }
-
-figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; max-width: 100%; }
-
-
 .blankbox {
     background: $theme-color;
 }
@@ -51,42 +30,35 @@ figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; m
     vertical-align: middle;
     font-size: .8rem;
 }
-
 .center-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
-
 .project {
       box-sizing: border-box;
       float: left;
-      height: 200px;
+      height: auto;
       padding: 10px;
       vertical-align: middle;
-      width: 100%;
-
+      width: 50%;
     .thumbnail {
         overflow: hidden;
-        height: 180px;
+        height: auto;
         width: 100%;
-
         img {
             height: auto;
             position: relative;
             left: 0;
             top: 0;
-            width: 100%;
+            width: auto;
         }
-
         a {
             float: left;
-            height: 180px;
+            height: auto;
             position: relative;
             width: 100%;
-
             span {
                 display: block;
                 position: absolute;
@@ -100,7 +72,6 @@ figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; m
 				padding-bottom: 5%;
                 text-align: center;
                 background: rgba(0,0,0,0.4);
-
                 h1 {
                     font-size: $h4;
                     color: white;
@@ -121,87 +92,15 @@ figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; m
         }
     }
   }
-
   
-@media screen and (min-width: 467px) {
-  .project {
-      height: 220px;
-      width: 100%;
-
-      .thumbnail {
-          height: 200px;
-          a {
-              height: 200px;
-              }
-          }
-      }
-  }
-
-
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 800px) {
     .project {
-        height: 170px;
-        width: 50%;
-
+        height: auto;
+        width: 100%;
         .thumbnail {
-            height: 150px;
+            height: auto;
             a {
-                height: 150px;
-                }
-            }
-        }
-    }
-
-
-@media screen and (min-width: 768px) {
-    .project {
-        height: 150px;
-        width: 33.33%;
-
-        .thumbnail {
-            height: 130px;
-            a {
-                height: 140px;
-            }
-        }
-    }
-}
-
-
-@media (min-width: 900px){
-    .project {
-        height: 165px;
-
-        .thumbnail {
-            height: 145px;
-            a {
-                height: 145px;
-            }
-        }
-    }
-}
-
-@media (min-width: 1000px){
-    .project {
-        height: 175px;
-
-        .thumbnail {
-            height: 160px;
-            a {
-                height: 160px;
-            }
-        }
-    }
-}
-
-@media (min-width: 1400px){
-    .project {
-        height: 190px;
-
-        .thumbnail {
-            height: 175px;
-            a {
-                height: 175px;
+                height: auto;
             }
         }
     }

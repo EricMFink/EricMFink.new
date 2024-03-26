@@ -1,34 +1,41 @@
-* {
-	margin: 0; padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+// Global Resets
+* { 
+	margin: 0; 
+	padding: 0; 
 }
 
+/* clearfix hack */
 .group:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
-html, body {
-	height: 100%;
-}
-
+/* HTML & Body */
+html, body { 
+	height: 100%; 
+	}
 html{
-	font-size: $base-size;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-body {
+    font-size: $base-size;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+body { 
+    font-family: $body-font;
+    background-color: $background-color;
+    color: $text-color;
 	width: 85%;
-	max-width: 40rem;
-	margin-left: 12.5%;
-	margin-right: 0;
-	padding: 0 2.5rem 0 .5rem;
-	font-family: $body-font;
-	background-color: $background-color;
-	color: $text-color;
+    margin: 0 0 0 12.5%;
+    counter-reset: chapter sidenote-counter; 
+	}
+body.fullwidth {
+	width: 90%;
+	max-width: 100%;
+	margin: 0 auto 0 auto;
+    counter-reset: chapter sidenote-counter; 
 }
-
 body.centered {
 	width: 85%;
 	max-width: 40rem;
@@ -37,50 +44,138 @@ body.centered {
 	padding: 0 2.5rem 0 2.5rem;
 }
 
-body.fullwidth {
-	width: 100%;
-	max-width: 100%;
-	margin-top: auto;
-	margin-left: auto;
-	margin-right: 2%;
-	padding: 0;
+/* Headings */
+
+h1 h2 h3 h4 h5 h6 {
+	line-height: single-line-height;
+	padding: 0 0 0 0;
+}
+h1 { 
+	color: $dull-red;
+	font-family: $sans-font;
+	font-size: $h1;
+	margin: 0 0 0 0;
+	font-style: normal;
+	font-weight: $medium-weight;
+	}
+h2, h3, h4, h5, h6 {
+	font-family: $body-font;
+	}
+h2 {
+	font-size: $h2;
+	margin: 3rem 0 0 0;
+	font-weight: $medium-weight;
+    }
+h2 + h3 {
+	margin-top: 1rem;
+	}
+h3 { 
+	font-size: $h3;
+	margin: 1.5rem 0 0 0;
+	font-style: italic;
+	font-weight: $medium-weight;
+	}
+h4 {
+	font-size: $h4;
+	margin: 1.5rem 0 0 0;
+	font-style: normal;
+	font-weight: $medium-weight;
+}
+h5 {
+	font-size: $h5;
+	margin: 1.5rem 0 0 0;
+	font-style: italic;
+	font-weight: $medium-weight;
+	}
+h6 {
+	font-size: $h6;
+	margin: .5rem 0 0 0;
+	font-style: italic;
+	font-weight: $medium-weight;
+	}
+
+/* Body Text */
+p {
+	font-size: $body-size;
+	font-weight: $normal-weight;
+	line-height: $line-height;
+	margin: 1rem 0 1rem 0;
+	}
+
+/* Links */
+a {
+	color: $contrast-color;
+	text-decoration: none;
 }
 
-body.sidenotes {
-	width: 55%;
-	margin-left: 12.5%;
-	margin-right: 0;
-	padding-left: 0;
-	padding-right: 0;
-    counter-reset: h1;
-	counter-reset: sidenote-counter;
+p > a, cite > a, span > a {
+	color: $contrast-color;
+	text-decoration: none;
+	}
+
+/* Lists */
+ol, ul { 
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	margin: .5rem 0 .5rem 2rem; 
+	padding: 0 0 0 0;
+	}
+
+li { 
+	font-size: $small-size;
+	line-height: $line-height;
+	margin-bottom: 0.5rem;
 }
 
-.site {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-					flex-direction: column;
-	min-height: 100vh;
+/* Blockquotes */
+
+blockquote {
+	margin: 1rem 0 1rem 0;
+	padding: 0 5% 0 5%;
 }
 
-.site-wrap {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-			-ms-flex: 1 0 auto;
-					flex: 1 0 auto;
+blockquote p {
+	font-size: $small-size;
+	font-style: italic;
 }
 
-.wrapper {
-    max-width: -webkit-calc(90%);
-    max-width:         calc(90%);
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 0;
-    padding-left: 0;
+
+/* Styled text */
+.sans-green {				/* emulates marginnote */
+	font-family: $sans-font;
+	color: $dark-green;
+	}
+.dullred {					/* emulates link */
+	color: $dull-red;
+	}
+.contrast { 
+	color: $contrast-color;
+	}
+.large {
+	font-size: $large-size;
+}
+.larger {
+	font-size: $larger-size;
+}
+.largest {
+	font-size: $largest-size;
+}
+.small {
+	font-size: $small-size;
+	}
+.smaller {
+	font-size: $smaller-size;
+	}
+.contrast {
+	color: $contrast-color;
+	}
+.mono-face {
+	font-family: $mono-font;
+	font-weight: 400;
+	font-style: normal;
+}
+.japanese {
+	font-family: $japanese-font;
+	font-weight: 400;
+	font-style: normal;
 }

@@ -5,7 +5,7 @@ title: Home
 
 ---
 
-# {{ site.title }}
+# {{ site.author }}
 ## {{ site.city }}, {{ site.state }} 
 
 [I'm tired and I'm hungry and I'm looking for my youth, \\

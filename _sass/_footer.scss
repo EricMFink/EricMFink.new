@@ -1,4 +1,10 @@
 footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.home-footer {
 	font-family: $sans-font;
 	background-color: $dark-grey;
 	border-top: thin solid $dark-grey;
@@ -6,28 +12,23 @@ footer {
 	font-size: $tiny-size;
 	padding: 0;
 	position: fixed;
-		left: 0px;
-		bottom: 0px;
+	left: 0px;
+	bottom: 0px;
 	width: 100%;
 }
-
-footer p {
-	font-family: $sans-font;
-	font-size: $smallest-size;
+.home-footer p {
+	font-size: $tiny-size;
 	font-weight: $normal-weight;
-	line-height: 1.1;
 	margin-top: 0;
 	margin-bottom: 0;
 }
-
-footer a {
+.home-footer a { 
 	color: $white !important;
 	&:hover {
 	color:darken($white, 50%) !important;
 	}
 }
-
-.footer-block {
+.home-footer-block {
     position: relative;
 	max-width: 20rem;
 	margin-left: auto;
@@ -37,23 +38,11 @@ footer a {
 	padding: 1% 0;
 	height: 100%;
 }
-
-.footer-block p {
-	font-size: $smallest-size;
+.home-footer-block p {
+	font-size: $tiny-size;
     position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-}
-
-
-
-@media screen and (min-width: 1000px){
-	.footer p {
- 		font-size: $tiny-size !important;
-	}
-	.footer-block p {
- 		font-size: $tiny-size !important;
-	}
 }

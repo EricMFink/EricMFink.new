@@ -3,19 +3,21 @@
 
 @charset "utf-8";
 
-
 @import "variables";
 @import "base";
-@import "base-typography";
-@import "media-queries";
 @import "tufte";
+@import "casebook";
+@import "syntax-highlighting";
 @import "code";
-@import "pages";
-@import "publications";
+@import "tables";
+@import "buttons";
+@import "page";
 @import "header";
 @import "footer";
 @import "profile";
 @import "gallery";
 @import "vita";
-@import "recipes";
 @import "bookmarks";
+@import "syllabus";
+@import "casebook-printing";
+@import "media-queries";

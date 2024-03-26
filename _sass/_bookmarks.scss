@@ -1,11 +1,9 @@
 .bookmarks-container {
-	padding: 0 0;
-	height: 100%;
+	padding: 75px 0;
 	background: rgba(0,0,0,0.4);
 }
 
 .bookmarks-block {
-	margin-top: 50px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -48,6 +46,10 @@
 }
 
 @media screen and (max-width: 699px) {
+	.bookmarks-block {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
 	.bookmarks-column h4 {
 		font-size: $h5;
 	}
