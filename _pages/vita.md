@@ -1,8 +1,9 @@
 ---
 layout: vita
-updated: '3 January 2024'
+updated: '26 March 2024'
 title: Vita
 permalink: /vita/
+pdf: /assets/pdf/vita.pdf
 
 vita: true
 
