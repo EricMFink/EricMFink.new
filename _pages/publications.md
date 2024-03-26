@@ -7,6 +7,7 @@ title: Publications
 
 <ul>
 {% for publication in site.data.publications %}
-	<li>{{ publication.author }}{% if publication.coauthor %} & {{ publication.coauthor }}{% endif %}, <a href="https://www.emfink.net/assets/pdf/{{ publication.pdf }}">{{ publication.title }}</a>, {{ publication.volume }} {{ publication.container-title }} {{ publication.page1 }} ({{ publication.date }})</li>
+
+	{{ publication.author }}, {% if publication.pdf %}<a href="{{ site.baseurl }}/assets/pdf/{{ publication.pdf }}.pdf" target="_blank">{{ publication.title }}</a>, {% else %}{{ publication.title }}, {% endif %}{% if publication.journal %}{{ publication.volume }} _{{ publication.journal }}_ {{ publication.page }} ({{ publication.date }}){% endif %}{% if publication.book %}in _{{ publication.book }}_ ({{ publication.editor }}, {{ publication.date }}){% endif %}{% if publication.institution %}({{ publication.institution }}, {{ publication.date }}){% endif %}
 {% endfor %}
 </ul>
