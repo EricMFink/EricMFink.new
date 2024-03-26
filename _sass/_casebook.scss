@@ -64,7 +64,6 @@
 
 /* Section headings within incorporated materials */
 .casebook h5 {
-	font-size: $larger-size;
     font-style: normal;
     font-weight: $medium-weight;
     margin: 2.5rem 0 0 0;
@@ -77,7 +76,7 @@
 }
 
 p.case-h1 {
-	font-size: $larger-size;
+	font-size: $large-size;
     font-style: normal;
     font-weight: $medium-weight;
     margin: 2.5rem 0 0 0;
@@ -91,7 +90,7 @@ p.case-h2 {
 	list-style: outside none none !important;
 }
 p.case-h3 {
-	font-size: $large-size;
+	font-size: $body-size;
     font-style: normal;
     font-weight: $medium-weight;
     margin: 1.5rem 0 0 0;
@@ -215,7 +214,7 @@ p.case-h4 {
 .casebook figcaption {
 	float: none;
 	font-family: $sans-font;
-    font-size: $smaller-size;
+    font-size: $small-size;
     text-align: center;
 }
 .marginnote figcaption, .sidenote figcaption { 

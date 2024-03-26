@@ -26,9 +26,11 @@
 	color: $theme-color;
     font-style: normal;
     font-weight:$normal-weight;
-	margin: 2rem 0 0 0;
+	line-height: 1;
+	margin: 4rem 0 0 0;
 }
 .syllabus h3 {
+    font-size: $largest-size;
 	font-weight: $normal-weight;
 	margin: 2rem 0 .5rem 0;
 }
