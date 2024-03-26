@@ -46,20 +46,20 @@ body.centered {
 
 /* Headings */
 
-h1 h2 h3 h4 h5 h6 {
-	line-height: single-line-height;
-	padding: 0 0 0 0;
-}
 h1 { 
 	color: $dull-red;
 	font-family: $sans-font;
 	font-size: $h1;
 	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 	font-style: normal;
 	font-weight: $medium-weight;
+	line-height: $line-height;
 	}
 h2, h3, h4, h5, h6 {
 	font-family: $body-font;
+	line-height: $line-height;
+	padding: 0 0 0 0;
 	}
 h2 {
 	font-size: $h2;

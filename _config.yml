@@ -5,12 +5,17 @@ title: Eric M. Fink
 description:  # leave blank if you don't want to display a description
 last_updated: 26 March 2024
 
-author: Eric M. Fink
-city: Greensboro
-state: North Carolina
-email: efink@elon.edu
-phone: 336-279-9334
-web: emfink.net/ElonLaw
+author:
+  name: Eric M. Fink
+  positition: Associate Professor
+  affiliation: Elon Law School
+  address: 201 North Greene Street
+  city: Greensboro
+  state: North Carolina 
+  zip: '27408'
+  email: efink@elon.edu
+  phone: 336-279-9334
+  web: emfink.net/ElonLaw
 
 collections:
   Songs:

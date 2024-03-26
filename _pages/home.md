@@ -5,9 +5,7 @@ title: Home
 
 ---
 
-# {{ site.author }}
-## {{ site.city }}, {{ site.state }} 
+# Eric M. Fink
+## Greensboro, North Carolina
 
-[I'm tired and I'm hungry and I'm looking for my youth, \\
-I'm a little uncool and I'm a little uncouth, \\
-Oh, excuse me, yes, excuse me if you will](https://www.emfink.net/Songs/NewPaint)
+### [I'm tired and I'm hungry and I'm looking for my youth,<br>I'm a little uncool and I'm a little uncouth,<br>Oh, excuse me, yes, excuse me if you will](https://www.emfink.net/Songs/NewPaint)
