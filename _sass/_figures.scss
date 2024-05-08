@@ -32,7 +32,7 @@ img {
 	
 .image-container img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 
@@ -47,7 +47,7 @@ img {
 	text-align: center;
 	color: $off-black;
 	text-shadow: 1px 1px 2px black;
-	width: 100%;
+	width: 90%;
         a {
             color: $off-white;
             &:hover {
