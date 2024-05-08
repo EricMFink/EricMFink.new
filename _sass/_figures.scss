@@ -20,7 +20,7 @@ figure.fullwidth figcaption {
 }
 
 img { 
-	max-width: 90%; 
+	max-width: 100%; 
 }
 
 .image-container {
@@ -32,7 +32,7 @@ img {
 	
 .image-container img {
 	display: block;
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 
