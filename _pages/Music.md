@@ -6,12 +6,12 @@ title: Playlists
 
 ## Playlists
 
-[![Tired & Hungry & Looking For My Youth]({{ site.baseurl }}/assets/mp3/tired.png)]({{ site.baseurl }}/Tired&Hungry.html)
+[Tired & Hungry & Looking For My Youth](https://www.emfink.net/Tired&Hungry.html)
 
-[![A Promise With A Catch]({{ site.baseurl }}/assets/mp3/promise.png)]({{ site.baseurl }}/PromiseWithACatch.html)
+[A Promise With A Catch]([{{ site.baseurl }}](https://www.emfink.net/PromiseWithACatch)
 
-[![Revolutionary Anthems, Labor Hymns, & Sectarian Satire]({{ site.baseurl }}/assets/mp3/revolution.png)]({{ site.baseurl }}/RevolutionaryAnthems.html)
+[Revolutionary Anthems, Labor Hymns, & Sectarian Satire(https://www.emfink.net/RevolutionaryAnthems)
 
 ## Songs
 
-{% for song in site.songs %}<ul><li><a href="{{ site.baseurl }}/songs/{{ song.url }}>{{ song.title }}</a></li></ul>{% endfor %}
+{% for song in site.songs %}<ul><li><a href="https://www.emfink.net/songs/{{ song.url }}">{{ song.title }}</a></li></ul>{% endfor %}
