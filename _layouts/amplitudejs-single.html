@@ -25,13 +25,6 @@
   <!-- Portada, Adelle, LFT Etica Mono -->
 	<link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
 
-  <!-- Google Fonts -->
-	<!--
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap">
-	-->
-
   <!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -96,7 +89,7 @@
 					<div id="next-container"></div>
 
 					<div id="download-container">
-						<a href="../{{ page.playlist }}/{{ page.file }}.mp3" download="">
+						<a href="{{ site.baseurl }}/assets/mp3/{{ page.playlist }}/{{ page.file }}.mp3" download="">
 						<button class="larger"><i class="fa fa-download"></i> </button>
 						</a>	
 					</div>
@@ -158,8 +151,8 @@ Amplitude.init({
 	},
   "songs": [{
     "name": "{{ page.title }}",
-    "url": "../{{ page.playlist }}/{{ page.file }}.mp3",
-    "cover_art_url": "../img/{{ page.playlist }}.png"
+    "url": "{{ site.baseurl }}/assets/mp3/{{ page.playlist }}/{{ page.file }}.mp3",
+    "cover_art_url": "{{ site.baseurl }}/assets/img/{{ page.playlist }}.png"
     },
   ]
 });

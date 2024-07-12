@@ -22,7 +22,6 @@ page_gen:
 - data: 'songs'
   template: 'amplitudejs-single'
   name: 'file'
-  extension: 'md'
   title: 'title'
   dir: 'songs'
 
