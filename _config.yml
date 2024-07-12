@@ -16,10 +16,20 @@ author:
   phone: 336-279-9334
   web: emfink.net/ElonLaw
 
-collections:
-  Songs:
-    output: true
-    permalink: /:collection/:title
+page_gen-dirs: true
+
+page_gen:
+- data: 'songs'
+  template: 'amplitudejs-single'
+  name: 'file'
+  title: 'title'
+  dir: 'Songs'
+
+#collections:
+#  Songs:
+#    output: true
+#    permalink: /:collection/:title
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -67,6 +77,7 @@ anchorjs_version: "3.2.2"
 
 plugins:
   - jekyll-spaceship
+  - jekyll-datapage-generator
 
 # Where things are
 jekyll-spaceship:
