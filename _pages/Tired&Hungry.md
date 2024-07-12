@@ -1,5 +1,6 @@
 ---
 layout: amplitudejs
+permalink: /Tired&Hungry/
 title: Tired & Hungry & Looking For My Youth 
 
 ---
@@ -8,5 +9,5 @@ title: Tired & Hungry & Looking For My Youth
 "name": "{{ song.title }}",
 "album": "{{ song.album }}",
 "url": "/{{ song.playlist }}/{{ song.file }}.mp3",
-"cover_art_url": "../img/{{ song.playlist }}.png"
+"cover_art_url": "{{ site.baseurl }}/assets/img/{{ song.playlist }}.png"
 },{% endfor %}

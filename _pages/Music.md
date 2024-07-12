@@ -10,8 +10,8 @@ title: Playlists
 
 [![A Promise With A Catch]({{ site.baseurl }}/assets/mp3/promise.png)]({{ site.baseurl }}/music/PromiseWithACatch.html)
 
-[![Revolutionary Anthems, Labor Hymns, & Sectarian Satire]({{ site.baseurl }}/assets/mp3/revolution.png)](../music/RevolutionaryAnthems.html)
+[![Revolutionary Anthems, Labor Hymns, & Sectarian Satire]({{ site.baseurl }}/assets/mp3/revolution.png)]({{ site.baseurl }}/music/RevolutionaryAnthems.html)
 
 ## Songs
 
-{% for item in site.music %}<ul><li><a href="{{ site.baseurl }}/music/{{ item.url }}>{{ item.title }}</a></li></ul>{% endfor %}
+{% for song in site.songs %}<ul><li><a href="{{ site.baseurl }}/music/{{ song.url }}>{{ song.title }}</a></li></ul>{% endfor %}

@@ -1,5 +1,6 @@
 ---
 layout: amplitudejs
+permalink: /Revolutionary Anthems/
 title: Revolutionary Anthems, Labor Hymns, & Sectarian Satire
 
 ---
@@ -8,5 +9,5 @@ title: Revolutionary Anthems, Labor Hymns, & Sectarian Satire
 "name": "{{ song.title }}",
 "album": "{{ song.album }}",
 "url": "/{{ song.playlist }}/{{ song.file }}.mp3",
-"cover_art_url": "../img/{{ song.playlist }}.png"
+"cover_art_url": "{{ site.baseurl }}/assets/img/{{ song.playlist }}.png"
 },{% endfor %}

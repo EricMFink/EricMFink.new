@@ -22,12 +22,12 @@ page_gen:
 - data: 'songs'
   template: 'amplitudejs-single'
   name: 'file'
-  extemsopm: 'md'
+  extension: 'md'
   title: 'title'
-  dir: 'music'
+  dir: 'songs'
 
 collections:
-  music:
+  songs:
     output: true
     permalink: /:collection/:title
 
