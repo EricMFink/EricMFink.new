@@ -88,7 +88,7 @@
 		<div id="player-screen">
 			<div class="player-header down-header">
 				<img id="down" src="{{ site.baseurl }}/assets/img/amplitudejs/down.svg" />
-				Show Playlist
+				A Promise With a Catch
 			</div>
 			<div id="player-top">
 				<img data-amplitude-song-info="cover_art_url" />
@@ -185,7 +185,7 @@ Amplitude.init({
     32: 'play_pause'
 	},
   "songs": [
-    {% for song in site.data.songs %}{
+    {% for song in site.data.promise %}{
     "name": "{{ song.title }}",
 	"album": "{{ song.album }}",
     "url": "/{{ song.playlist }}/{{ song.file }}.mp3",
@@ -193,20 +193,6 @@ Amplitude.init({
     },{% endfor %}
   ], 
 
-  playlists: {
-    "tired": {
-      songs: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      title: 'Tired & Hungry & Looking for My Youth'
-    },
-    "promise": {
-      songs: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
-      title: 'A Promise with A Catch',
-    },
-    "revolution": {
-      songs: [29, 30],
-      title: 'Revolutionary Ballads, Labor Hymns, & Sectarian Satire',
-    },
-  }
 });
 </script>
 
