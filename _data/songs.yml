@@ -1,115 +1,185 @@
 - title: New Paint
+  album: Tired & Hungry & Looking for My Youth
   file: NewPaint
+  cover: 'tired.png'
   index: '0'
 
 - title: Clay Pigeons
+  album: Tired & Hungry & Looking for My Youth
   file: ClayPigeons
+  cover: 'tired.png'
   index: '1'
 
 - title: Blues Run the Game
+  album: Tired & Hungry & Looking for My Youth
   file: BluesRunTheGame
+  cover: 'tired.png'
   index: '2'
 
-- title: Not Ashamed
-  file: NotAshamed
+- title: If That's Alright
+  album: Tired & Hungry & Looking for My Youth
+  file: IfThatsAlright
+  cover: 'tired.png'
   index: '3'
 
-- title: Fireworks
-  file: Fireworks
+- title: 'Ballrooms of Mars'
+  album: Tired & Hungry & Looking for My Youth
+  file: BallroomsofMars
+  cover: 'tired.png'
   index: '4'
 
-- title: True Love Will Find You in the End
-  file: TrueLove
+- title: Someone Else's Song
+  album: Tired & Hungry & Looking for My Youth
+  file: SomeoneElsesSong
+  cover: 'tired.png'
   index: '5'
 
-- title: 'Oops, I Did It Again'
-  file: Oops
+- title: Just Like Tom Thumb's Blues
+  album: Tired & Hungry & Looking for My Youth
+  file: 'JustLikeTomThumbsBlues'
+  cover: 'tired.png'
   index: '6'
 
-- title: 'Too Good to Believe'
-  file: TooGood
+- title: One Way Ticket Home
+  album: Tired & Hungry & Looking for My Youth
+  file: 'OneWayTicketHome'
+  cover: 'tired.png'
   index: '7'
 
-- title: 'I Want to Watch You Age'
-  file: WatchYouAge
+- title: Sweet Revenge
+  album: Tired & Hungry & Looking for My Youth
+  file: 'SweetRevenge'
+  cover: 'tired.png'
   index: '8'
 
-- title: "If That's Alright"
-  file: IfThatsAlright
+- title: God's Coffee
+  album: Tired & Hungry & Looking for My Youth
+  file: 'GodsCoffee'
+  cover: 'tired.png'
   index: '9'
 
-- title: "Ballrooms of Mars"
-  file: Ballrooms
+- title: True Love Will Find You in the End
+  album: A Promise With A Catch
+  file: TrueLoveWillFindYouInTheEnd
+  cover: 'promise.png'
   index: '10'
 
-- title: "Mystifies Me"
-  file: MystifiesMe
+- title: Not Ashamed
+  album: A Promise With A Catch
+  file: NotAshamed
+  cover: 'promise.png'
   index: '11'
 
-- title: "Someone Else's Song"
-  file: SomeoneElsesSong
+- title: Fireworks
+  album: A Promise With A Catch
+  file: Fireworks
+  cover: 'promise.png'
   index: '12'
 
-- title: "True Blue Angel (Professor Rath's Blues)"
-  file: TrueBlueAngel
+- title: Oops, I Did It Again
+  album: A Promise With A Catch
+  file: OopsIDidItAgain
+  cover: 'promise.png'
   index: '13'
 
-- title: "You Don't Miss Your Water"
-  file: YouDontMissYourWater
+- title: Too Good to Believe
+  album: A Promise With A Catch
+  file: TooGoodToBelieve
+  cover: 'promise.png'
   index: '14'
 
-- title: "Speed of the Sound of Loneliness"
-  file: SoundOfLoneliness
+- title: I Want to Watch You Age
+  album: A Promise With A Catch
+  file: IWantToWatchYouAge
+  cover: 'promise.png'
   index: '15'
 
-- title: "Curiosity"
-  file: Curiosity
+- title: Mystifies Me
+  album: A Promise With A Catch
+  file: MystifiesMe
+  cover: 'promise.png'
   index: '16'
 
-- title: "Just Like Tom Thumb's Blues"
-  file: "JustLikeTomThumbsBlues"
+- title: True Blue Angel (Professor Rath's Blues)
+  album: A Promise With A Catch
+  file: TrueBlueAngel
+  cover: 'promise.png'
   index: '17'
 
-- title: "A Song for You"
-  file: "ASongForYou"
+- title: You Don't Miss Your Water
+  album: A Promise With A Catch
+  file: YouDontMissYourWater
+  cover: 'promise.png'
   index: '18'
 
-- title: "God's Coffee"
-  file: "GodsCoffee"
+- title: Speed of the Sound of Loneliness
+  album: A Promise With A Catch
+  file: SpeedOfTheSoundOfLoneliness
+  cover: 'promise.png'
   index: '19'
 
-- title: "Broken Heart"
-  file: "BrokenHeart"
+- title: Curiosity
+  album: A Promise With A Catch
+  file: Curiosity
+  cover: 'promise.png'
   index: '20'
 
-- title: "One Way Ticket Home"
-  file: "OneWayTicketHome"
+- title: A Song for You
+  album: A Promise With A Catch
+  file: ASongForYou
+  cover: 'promise.png'
   index: '21'
 
-- title: "Walking on a Wire"
-  file: "WalkingOnAWire"
+- title: Broken Heart
+  album: A Promise With A Catch
+  file: BrokenHeart
+  cover: 'promise.png'
   index: '22'
 
-- title: "Sweet Revenge"
-  file: "SweetRevenge"
+- title: Thanks a Lot
+  album: A Promise With A Catch
+  file: ThanksALot
+  cover: 'promise.png'
   index: '23'
 
-- title: "Thanks a Lot"
-  file: "ThanksALot"
+- title: I'll Keep It with Mine
+  album: A Promise With A Catch
+  file: IllKeepItWithMine
+  cover: 'promise.png'
   index: '24'
 
-- title: "I'll Keep It with Mine"
-  file: "KeepItWithMine"
+- title: Scholarship is the Enemy of Romance
+  album: A Promise With A Catch
+  file: ScholarshipIsTheEnemyOfRomance
+  cover: 'promise.png'
   index: '25'
 
-- title: "Scholarship is the Enemy of Romance"
-  file: "Scholarship"
+- title: Here at the Right Time
+  album: A Promise With A Catch
+  file: HereAtTheRightTime
+  cover: 'promise.png'
   index: '26'
 
-- title: "Here at the Right Time"
-  file: "HereAtTheRightTime"
+- title: Withered and Died
+  album: A Promise With A Catch
+  file: WitheredAndDied
+  cover: 'promise.png'
   index: '27'
 
-- title: "Withered and Died"
-  file: "Withered&Died"
+- title: I Blame God
+  album: A Promise With A Catch
+  file: IBlameGod
+  cover: 'promise.png'
   index: '28'
+
+- title: Bill Bailey the Ultimate Sectarian
+  album: Revolutionary Ballads, Labor Hymns, & Sectarian Satire
+  file: BillBaileytheUltimateSectarian
+  cover: 'revolution.png'
+  index: '29'
+
+- title: Your Flag Decal Won't Get You Into Heaven Anymore
+  album: Revolutionary Ballads, Labor Hymns, & Sectarian Satire
+  file: YourFlagDecalWontGetYouIntoHeavenAnymore
+  cover: 'revolution.png'
+  index: '30'

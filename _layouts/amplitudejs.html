@@ -187,10 +187,26 @@ Amplitude.init({
   "songs": [
     {% for song in site.data.songs %}{
     "name": "{{ song.title }}",
+	"album": "{{ song.album }}",
     "url": "../assets/mp3/{{ song.file }}.mp3",
-    "cover_art_url": "../assets/img/tired.png"
+    "cover_art_url": "../assets/img/amplitudejs/{{ song.cover }}"
     },{% endfor %}
-  ]
+  ], 
+
+  playlists: {
+    "tired": {
+      songs: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      title: 'Tired & Hungry & Looking for My Youth'
+    },
+    "promise": {
+      songs: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      title: 'A Promise with A Catch',
+    },
+    "revolution": {
+      songs: [29, 30],
+      title: 'Revolutionary Ballads, Labor Hymns, & Sectarian Satire',
+    },
+  }
 });
 </script>
 
