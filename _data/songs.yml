@@ -1,185 +1,185 @@
 - title: New Paint
   album: Tired & Hungry & Looking for My Youth
   file: NewPaint
-  cover: 'tired.png'
+  playlist: tired
   index: '0'
 
 - title: Clay Pigeons
   album: Tired & Hungry & Looking for My Youth
   file: ClayPigeons
-  cover: 'tired.png'
+  playlist: tired
   index: '1'
 
 - title: Blues Run the Game
   album: Tired & Hungry & Looking for My Youth
   file: BluesRunTheGame
-  cover: 'tired.png'
+  playlist: tired
   index: '2'
 
 - title: If That's Alright
   album: Tired & Hungry & Looking for My Youth
   file: IfThatsAlright
-  cover: 'tired.png'
+  playlist: tired
   index: '3'
 
 - title: 'Ballrooms of Mars'
   album: Tired & Hungry & Looking for My Youth
   file: BallroomsofMars
-  cover: 'tired.png'
+  playlist: tired
   index: '4'
 
 - title: Someone Else's Song
   album: Tired & Hungry & Looking for My Youth
   file: SomeoneElsesSong
-  cover: 'tired.png'
+  playlist: tired
   index: '5'
 
 - title: Just Like Tom Thumb's Blues
   album: Tired & Hungry & Looking for My Youth
   file: 'JustLikeTomThumbsBlues'
-  cover: 'tired.png'
+  playlist: tired
   index: '6'
 
 - title: One Way Ticket Home
   album: Tired & Hungry & Looking for My Youth
   file: 'OneWayTicketHome'
-  cover: 'tired.png'
+  playlist: tired
   index: '7'
 
 - title: Sweet Revenge
   album: Tired & Hungry & Looking for My Youth
   file: 'SweetRevenge'
-  cover: 'tired.png'
+  playlist: tired
   index: '8'
 
 - title: God's Coffee
   album: Tired & Hungry & Looking for My Youth
   file: 'GodsCoffee'
-  cover: 'tired.png'
+  playlist: tired
   index: '9'
 
 - title: True Love Will Find You in the End
   album: A Promise With A Catch
   file: TrueLoveWillFindYouInTheEnd
-  cover: 'promise.png'
+  playlist: promise
   index: '10'
 
 - title: Not Ashamed
   album: A Promise With A Catch
   file: NotAshamed
-  cover: 'promise.png'
+  playlist: promise
   index: '11'
 
 - title: Fireworks
   album: A Promise With A Catch
   file: Fireworks
-  cover: 'promise.png'
+  playlist: promise
   index: '12'
 
 - title: Oops, I Did It Again
   album: A Promise With A Catch
   file: OopsIDidItAgain
-  cover: 'promise.png'
+  playlist: promise
   index: '13'
 
 - title: Too Good to Believe
   album: A Promise With A Catch
   file: TooGoodToBelieve
-  cover: 'promise.png'
+  playlist: promise
   index: '14'
 
 - title: I Want to Watch You Age
   album: A Promise With A Catch
   file: IWantToWatchYouAge
-  cover: 'promise.png'
+  playlist: promise
   index: '15'
 
 - title: Mystifies Me
   album: A Promise With A Catch
   file: MystifiesMe
-  cover: 'promise.png'
+  playlist: promise
   index: '16'
 
 - title: True Blue Angel (Professor Rath's Blues)
   album: A Promise With A Catch
   file: TrueBlueAngel
-  cover: 'promise.png'
+  playlist: promise
   index: '17'
 
 - title: You Don't Miss Your Water
   album: A Promise With A Catch
   file: YouDontMissYourWater
-  cover: 'promise.png'
+  playlist: promise
   index: '18'
 
 - title: Speed of the Sound of Loneliness
   album: A Promise With A Catch
   file: SpeedOfTheSoundOfLoneliness
-  cover: 'promise.png'
+  playlist: promise
   index: '19'
 
 - title: Curiosity
   album: A Promise With A Catch
   file: Curiosity
-  cover: 'promise.png'
+  playlist: promise
   index: '20'
 
 - title: A Song for You
   album: A Promise With A Catch
   file: ASongForYou
-  cover: 'promise.png'
+  playlist: promise
   index: '21'
 
 - title: Broken Heart
   album: A Promise With A Catch
   file: BrokenHeart
-  cover: 'promise.png'
+  playlist: promise
   index: '22'
 
 - title: Thanks a Lot
   album: A Promise With A Catch
   file: ThanksALot
-  cover: 'promise.png'
+  playlist: promise
   index: '23'
 
 - title: I'll Keep It with Mine
   album: A Promise With A Catch
   file: IllKeepItWithMine
-  cover: 'promise.png'
+  playlist: promise
   index: '24'
 
 - title: Scholarship is the Enemy of Romance
   album: A Promise With A Catch
   file: ScholarshipIsTheEnemyOfRomance
-  cover: 'promise.png'
+  playlist: promise
   index: '25'
 
 - title: Here at the Right Time
   album: A Promise With A Catch
   file: HereAtTheRightTime
-  cover: 'promise.png'
+  playlist: promise
   index: '26'
 
 - title: Withered and Died
   album: A Promise With A Catch
   file: WitheredAndDied
-  cover: 'promise.png'
+  playlist: promise
   index: '27'
 
 - title: I Blame God
   album: A Promise With A Catch
   file: IBlameGod
-  cover: 'promise.png'
+  playlist: promise
   index: '28'
 
 - title: Bill Bailey the Ultimate Sectarian
   album: Revolutionary Ballads, Labor Hymns, & Sectarian Satire
   file: BillBaileytheUltimateSectarian
-  cover: 'revolution.png'
+  playlist: revolution
   index: '29'
 
 - title: Your Flag Decal Won't Get You Into Heaven Anymore
   album: Revolutionary Ballads, Labor Hymns, & Sectarian Satire
   file: YourFlagDecalWontGetYouIntoHeavenAnymore
-  cover: 'revolution.png'
+  playlist: revolution
   index: '30'
