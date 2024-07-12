@@ -24,10 +24,10 @@ page_gen:
   name: 'file'
   extemsopm: 'md'
   title: 'title'
-  dir: 'Music'
+  dir: 'music'
 
 collections:
-  Music:
+  music:
     output: true
     permalink: /:collection/:title
 
