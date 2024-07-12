@@ -23,12 +23,12 @@ page_gen:
   template: 'amplitudejs-single'
   name: 'file'
   title: 'title'
-  dir: 'songs'
+  dir: 'Music'
 
-#collections:
-#  Songs:
-#    output: true
-#    permalink: /:collection/:title
+collections:
+  Music:
+    output: true
+    permalink: /:collection/:title
 
 
 # -----------------------------------------------------------------------------

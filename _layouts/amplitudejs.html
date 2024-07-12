@@ -48,7 +48,7 @@
 	<div id="flat-black-player-container">
 		<div id="list-screen" class="slide-in-top">
 			<div id="list-screen-header" class="hide-playlist">
-				<img id="up-arrow" src="../assets/img/amplitudejs/up.svg" />
+				<img id="up-arrow" src="{{ site.baseurl }}/assets/img/amplitudejs/up.svg" />
 				Hide Playlist
 			</div>
 
@@ -59,7 +59,7 @@
 				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="{{ song.index }}">
 					<span class="song-number-now-playing">
 						<span class="number"> </span>
-						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+						<img class="now-playing" src="{{ site.baseurl }}/assets/img/amplitudejs/now-playing.svg" />
 					</span>
 					<div class="song-meta-container">
 						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="{{ song.index }}"></span>
@@ -87,7 +87,7 @@
 		</div>
 		<div id="player-screen">
 			<div class="player-header down-header">
-				<img id="down" src="../assets/img/amplitudejs/down.svg" />
+				<img id="down" src="{{ site.baseurl }}/assets/img/amplitudejs/down.svg" />
 				Show Playlist
 			</div>
 			<div id="player-top">
@@ -132,7 +132,7 @@
 				</div>
 
 				<div id="volume-container">
-					<img src="../assets/img/amplitudejs/volume.svg" /><input type="range" class="amplitude-volume-slider" step=".1" />
+					<img src="{{ site.baseurl }}/assets/img/amplitudejs/volume.svg" /><input type="range" class="amplitude-volume-slider" step=".1" />
 				</div>
 			</div>
 		</div>
@@ -188,8 +188,8 @@ Amplitude.init({
     {% for song in site.data.songs %}{
     "name": "{{ song.title }}",
 	"album": "{{ song.album }}",
-    "url": "../assets/mp3/{{ song.file }}/{{ song.playlist }}/.mp3",
-    "cover_art_url": "../assets/img/amplitudejs/{{ song.playlist }}.png"
+    "url": "{{ site.baseurl }}/assets/mp3/{{ song.file }}/{{ song.playlist }}/.mp3",
+    "cover_art_url": "{{ site.baseurl }}/assets/img/amplitudejs/{{ song.playlist }}.png"
     },{% endfor %}
   ], 
 
