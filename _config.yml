@@ -22,6 +22,7 @@ page_gen:
 - data: 'songs'
   template: 'amplitudejs-single'
   name: 'file'
+  extemsopm: 'md'
   title: 'title'
   dir: 'Music'
 
