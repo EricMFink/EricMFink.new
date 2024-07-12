@@ -188,7 +188,7 @@ Amplitude.init({
     {% for song in site.data.songs %}{
     "name": "{{ song.title }}",
 	"album": "{{ song.album }}",
-    "url": "../assets/mp3/{{ song.file }}.mp3",
+    "url": "../assets/mp3/{{ song.file }}/{{ song.album }}/.mp3",
     "cover_art_url": "../assets/img/amplitudejs/{{ song.cover }}"
     },{% endfor %}
   ], 
