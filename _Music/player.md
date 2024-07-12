@@ -1,4 +1,4 @@
 ---
 layout: amplitudejs
-title: Music
+title: Music Player
 ---

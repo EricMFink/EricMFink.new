@@ -1,6 +1,5 @@
 ---
 layout: song-list
-permalink: /Songs/
 title: Songs
 ---
 
