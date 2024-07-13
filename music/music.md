@@ -4,12 +4,12 @@ permalink: /music/
 title: Music
 ---
 
-### [Tired & Hungry & Looking For My Youth]({{ site.baseurl}}/music/Tired&Hungry)
+### [Tired & Hungry & Looking For My Youth]({{ site.baseurl}}/music/TiredAndHungry)
 
-![](Tired&Hungry.png)
+![](TiredAndHungry.png)
 
 <ul>
-{% for song in site.data.songs.Tired&Hungry %}<li><a href="{{ site.baseurl}}/music/{{ song.file }}">{{ song.title }}</a></li>{% endfor %}
+{% for song in site.data.songs.TiredAndHungry %}<li><a href="{{ site.baseurl}}/music/{{ song.file }}">{{ song.title }}</a></li>{% endfor %}
 </ul>
 
 ### [A Promise With A Catch]({{ site.baseurl}}/music/PromiseWithACatch)
