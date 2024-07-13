@@ -17,7 +17,7 @@
 
 			<div id="list">
 
-				{% for song in site.data.songs %}
+				{% for song in site.data.songs[page.playlist] %}
 
 				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="{{ song.index }}">
 					<span class="song-number-now-playing">
@@ -147,15 +147,17 @@ Amplitude.init({
     39: 'next',
     32: 'play_pause'
 	},
-	"songs": [
-	{%- assign songs = site.data.songs[page.playlist] -%}
-    {% for song in songs %}{
-    "name": "{{ song.title }}",
-	"album": "{{ song.album }}",
-    "url": "{{ song.file }}.mp3",
-    "cover_art_url": "{{ song.playlist }}.png"
-    },{% endfor %}
-  ], 
+  "songs": [
+	{% for song in site.data.songs[page.playlist] %}
+	{
+     "name": "{{ song.title }}",
+  	 "album": "{{ song.album }}",
+     "url": "{{ song.file }}.mp3",
+     "cover_art_url": "{{ song.playlist }}.png"
+	},
+	{% endfor %}
+  ]
+});
 
 </script>
 

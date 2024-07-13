@@ -147,15 +147,17 @@ Amplitude.init({
     39: 'next',
     32: 'play_pause'
 	},
-	"songs": [
-    {% for song in site.data.[page.playlist] %}{
+  "songs": [
+	{% for song in site.data.songs[page.playlist] %}
+	{
     "name": "{{ song.title }}",
 	"album": "{{ song.album }}",
     "url": "{{ song.file }}.mp3",
     "cover_art_url": "{{ song.playlist }}.png"
-    },{% endfor %}
-  ], 
-
+	},
+	{% endfor %}
+  ]
+});
 </script>
 
 </body>

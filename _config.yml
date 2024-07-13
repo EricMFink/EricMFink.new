@@ -16,7 +16,7 @@ author:
   phone: 336-279-9334
   web: emfink.net/ElonLaw
 
-page_gen-dirs: false
+page_gen-dirs: true
 
 page_gen:
 - data: 'songs.Tired&Hungry'
