@@ -1,185 +1,160 @@
-- title: New Paint
-  album: Tired & Hungry & Looking for My Youth
-  file: NewPaint
-  playlist: tired
-  index: '0'
+Tired&Hungry:
+  - title: New Paint
+    album: Tired & Hungry & Looking for My Youth
+    file: NewPaint
+    playlist: Tired&Hungry
+    index: '0'
+  - title: Clay Pigeons
+    album: Tired & Hungry & Looking for My Youth
+    file: ClayPigeons
+    playlist: Tired&Hungry
+    index: '1'
+  - title: Blues Run the Game
+    album: Tired & Hungry & Looking for My Youth
+    file: BluesRunTheGame
+    playlist: Tired&Hungry
+    index: '2'
+  - title: If That's Alright
+    album: Tired & Hungry & Looking for My Youth
+    file: IfThatsAlright
+    playlist: Tired&Hungry
+    index: '3'
+  - title: 'Ballrooms of Mars'
+    album: Tired & Hungry & Looking for My Youth
+    file: BallroomsofMars
+    playlist: Tired&Hungry
+    index: '4'
+  - title: Someone Else's Song
+    album: Tired & Hungry & Looking for My Youth
+    file: SomeoneElsesSong
+    playlist: Tired&Hungry
+    index: '5'
+  - title: Just Like Tom Thumb's Blues
+    album: Tired & Hungry & Looking for My Youth
+    file: 'JustLikeTomThumbsBlues'
+    playlist: Tired&Hungry
+    index: '6'
+  - title: One Way Ticket Home
+    album: Tired & Hungry & Looking for My Youth
+    file: 'OneWayTicketHome'
+    playlist: Tired&Hungry
+    index: '7'
+  - title: Sweet Revenge
+    album: Tired & Hungry & Looking for My Youth
+    file: 'SweetRevenge'
+    playlist: Tired&Hungry
+    index: '8'
+  - title: God's Coffee
+    album: Tired & Hungry & Looking for My Youth
+    file: 'GodsCoffee'
+    playlist: Tired&Hungry
+    index: '9'
 
-- title: Clay Pigeons
-  album: Tired & Hungry & Looking for My Youth
-  file: ClayPigeons
-  playlist: tired
-  index: '1'
+Promise:
+  - title: True Love Will Find You in the End
+    album: A Promise With A Catch
+    file: TrueLoveWillFindYouInTheEnd
+    playlist: Promise
+    index: '0'
+  - title: Not Ashamed
+    album: A Promise With A Catch
+    file: NotAshamed
+    playlist: Promise
+    index: '1'
+  - title: Fireworks
+    album: A Promise With A Catch
+    file: Fireworks
+    playlist: Promise
+    index: '2'
+  - title: Oops, I Did It Again
+    album: A Promise With A Catch
+    file: OopsIDidItAgain
+    playlist: Promise
+    index: '3'
+  - title: Too Good to Believe
+    album: A Promise With A Catch
+    file: TooGoodToBelieve
+    playlist: Promise
+    index: '4'
+  - title: I Want to Watch You Age
+    album: A Promise With A Catch
+    file: IWantToWatchYouAge
+    playlist: Promise
+    index: '5'
+  - title: Mystifies Me
+    album: A Promise With A Catch
+    file: MystifiesMe
+    playlist: Promise
+    index: '6'
+  - title: True Blue Angel (Professor Rath's Blues)
+    album: A Promise With A Catch
+    file: TrueBlueAngel
+    playlist: Promise
+    index: '7'
+  - title: You Don't Miss Your Water
+    album: A Promise With A Catch
+    file: YouDontMissYourWater
+    playlist: Promise
+    index: '8'
+  - title: Speed of the Sound of Loneliness
+    album: A Promise With A Catch
+    file: SpeedOfTheSoundOfLoneliness
+    playlist: Promise
+    index: '9'
+  - title: Curiosity
+    album: A Promise With A Catch
+    file: Curiosity
+    playlist: Promise
+    index: '10'
+  - title: A Song for You
+    album: A Promise With A Catch
+    file: ASongForYou
+    playlist: Promise
+    index: '11'
+  - title: Broken Heart
+    album: A Promise With A Catch
+    file: BrokenHeart
+    playlist: Promise
+    index: '12'
+  - title: Thanks a Lot
+    album: A Promise With A Catch
+    file: ThanksALot
+    playlist: Promise
+    index: '13'
+  - title: I'll Keep It with Mine
+    album: A Promise With A Catch
+    file: IllKeepItWithMine
+    playlist: Promise
+    index: '14'
+  - title: Scholarship is the Enemy of Romance
+    album: A Promise With A Catch
+    file: ScholarshipIsTheEnemyOfRomance
+    playlist: Promise
+    index: '15'
+  - title: Here at the Right Time
+    album: A Promise With A Catch
+    file: HereAtTheRightTime
+    playlist: Promise
+    index: '16'
+  - title: Withered and Died
+    album: A Promise With A Catch
+    file: WitheredAndDied
+    playlist: Promise
+    index: '17'
+  - title: I Blame God
+    album: A Promise With A Catch
+    file: IBlameGod
+    playlist: Promise
+    index: '18'
 
-- title: Blues Run the Game
-  album: Tired & Hungry & Looking for My Youth
-  file: BluesRunTheGame
-  playlist: tired
-  index: '2'
-
-- title: If That's Alright
-  album: Tired & Hungry & Looking for My Youth
-  file: IfThatsAlright
-  playlist: tired
-  index: '3'
-
-- title: 'Ballrooms of Mars'
-  album: Tired & Hungry & Looking for My Youth
-  file: BallroomsofMars
-  playlist: tired
-  index: '4'
-
-- title: Someone Else's Song
-  album: Tired & Hungry & Looking for My Youth
-  file: SomeoneElsesSong
-  playlist: tired
-  index: '5'
-
-- title: Just Like Tom Thumb's Blues
-  album: Tired & Hungry & Looking for My Youth
-  file: 'JustLikeTomThumbsBlues'
-  playlist: tired
-  index: '6'
-
-- title: One Way Ticket Home
-  album: Tired & Hungry & Looking for My Youth
-  file: 'OneWayTicketHome'
-  playlist: tired
-  index: '7'
-
-- title: Sweet Revenge
-  album: Tired & Hungry & Looking for My Youth
-  file: 'SweetRevenge'
-  playlist: tired
-  index: '8'
-
-- title: God's Coffee
-  album: Tired & Hungry & Looking for My Youth
-  file: 'GodsCoffee'
-  playlist: tired
-  index: '9'
-
-- title: True Love Will Find You in the End
-  album: A Promise With A Catch
-  file: TrueLoveWillFindYouInTheEnd
-  playlist: promise
-  index: '10'
-
-- title: Not Ashamed
-  album: A Promise With A Catch
-  file: NotAshamed
-  playlist: promise
-  index: '11'
-
-- title: Fireworks
-  album: A Promise With A Catch
-  file: Fireworks
-  playlist: promise
-  index: '12'
-
-- title: Oops, I Did It Again
-  album: A Promise With A Catch
-  file: OopsIDidItAgain
-  playlist: promise
-  index: '13'
-
-- title: Too Good to Believe
-  album: A Promise With A Catch
-  file: TooGoodToBelieve
-  playlist: promise
-  index: '14'
-
-- title: I Want to Watch You Age
-  album: A Promise With A Catch
-  file: IWantToWatchYouAge
-  playlist: promise
-  index: '15'
-
-- title: Mystifies Me
-  album: A Promise With A Catch
-  file: MystifiesMe
-  playlist: promise
-  index: '16'
-
-- title: True Blue Angel (Professor Rath's Blues)
-  album: A Promise With A Catch
-  file: TrueBlueAngel
-  playlist: promise
-  index: '17'
-
-- title: You Don't Miss Your Water
-  album: A Promise With A Catch
-  file: YouDontMissYourWater
-  playlist: promise
-  index: '18'
-
-- title: Speed of the Sound of Loneliness
-  album: A Promise With A Catch
-  file: SpeedOfTheSoundOfLoneliness
-  playlist: promise
-  index: '19'
-
-- title: Curiosity
-  album: A Promise With A Catch
-  file: Curiosity
-  playlist: promise
-  index: '20'
-
-- title: A Song for You
-  album: A Promise With A Catch
-  file: ASongForYou
-  playlist: promise
-  index: '21'
-
-- title: Broken Heart
-  album: A Promise With A Catch
-  file: BrokenHeart
-  playlist: promise
-  index: '22'
-
-- title: Thanks a Lot
-  album: A Promise With A Catch
-  file: ThanksALot
-  playlist: promise
-  index: '23'
-
-- title: I'll Keep It with Mine
-  album: A Promise With A Catch
-  file: IllKeepItWithMine
-  playlist: promise
-  index: '24'
-
-- title: Scholarship is the Enemy of Romance
-  album: A Promise With A Catch
-  file: ScholarshipIsTheEnemyOfRomance
-  playlist: promise
-  index: '25'
-
-- title: Here at the Right Time
-  album: A Promise With A Catch
-  file: HereAtTheRightTime
-  playlist: promise
-  index: '26'
-
-- title: Withered and Died
-  album: A Promise With A Catch
-  file: WitheredAndDied
-  playlist: promise
-  index: '27'
-
-- title: I Blame God
-  album: A Promise With A Catch
-  file: IBlameGod
-  playlist: promise
-  index: '28'
-
+RevolutionaryBallads:
 - title: Bill Bailey the Ultimate Sectarian
   album: Revolutionary Ballads, Labor Hymns, & Sectarian Satire
   file: BillBaileytheUltimateSectarian
-  playlist: revolution
-  index: '29'
-
+  playlist: RevolutionaryBallads
+  index: '0'
 - title: Your Flag Decal Won't Get You Into Heaven Anymore
   album: Revolutionary Ballads, Labor Hymns, & Sectarian Satire
   file: YourFlagDecalWontGetYouIntoHeavenAnymore
-  playlist: revolution
-  index: '30'
+  playlist: RevolutionaryBallads
+  index: '1'

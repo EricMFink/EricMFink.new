@@ -89,7 +89,7 @@
 					<div id="next-container"></div>
 
 					<div id="download-container">
-						<a href="{{ site.baseurl }}/assets/mp3/{{ page.playlist }}/{{ page.file }}.mp3" download="">
+						<a href="{{ page.file }}.mp3" download="">
 						<button class="larger"><i class="fa fa-download"></i> </button>
 						</a>	
 					</div>
@@ -151,8 +151,8 @@ Amplitude.init({
 	},
   "songs": [{
     "name": "{{ page.title }}",
-    "url": "{{ site.baseurl }}/assets/mp3/{{ page.playlist }}/{{ page.file }}.mp3",
-    "cover_art_url": "{{ site.baseurl }}/assets/img/{{ page.playlist }}.png"
+    "url": "{{ page.file }}.mp3",
+    "cover_art_url": "{{ page.playlist }}.png"
     },
   ]
 });

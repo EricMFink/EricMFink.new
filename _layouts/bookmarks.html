@@ -8,19 +8,19 @@
 			<div class="bookmarks-block">
 				<div class="row">
 					<div class="bookmarks-column">
-						{% for bookmark in site.data.bookmarks-left %}
+						{% for bookmark in site.data.bookmarks.left %}
 							<h5><a href="{{ bookmark.url }}" target="_blank">{{ bookmark.title }}</a></h5>
 						{% endfor %}
 					</div>
 
 					<div class="bookmarks-column">
-						{% for bookmark in site.data.bookmarks-middle %}
+						{% for bookmark in site.data.bookmarks.middle %}
 							<h5><a href="{{ bookmark.url }}" target="_blank">{{ bookmark.title }}</a></h5>
 						{% endfor %}
 					</div>
 
 					<div class="bookmarks-column">
-						{% for bookmark in site.data.bookmarks-right %}
+						{% for bookmark in site.data.bookmarks.right %}
 							<h5><a href="{{ bookmark.url }}" target="_blank">{{ bookmark.title }}</a></h5>
 						{% endfor %}
 					</div>
