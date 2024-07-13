@@ -1,7 +1,7 @@
 ---
 layout: amplitudejs-playlist
-permalink: /Tired&Hungry/
+permalink: /TiredAndHungry/
 title: "Tired & Hungry & Looking For My Youth "
-playlist: Tired&Hungry
+playlist: TiredAndHungry
 
 ---
