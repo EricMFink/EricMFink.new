@@ -9,4 +9,3 @@ gem 'tufte-pandoc-jekyll'
 gem 'gemoji'
 gem "webrick", "~> 1.8"
 gem 'nokogiri'
-gem 'jekyll-datapage-generator'
