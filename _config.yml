@@ -92,7 +92,7 @@ anchorjs_version: "3.2.2"
 
 plugins:
   - jekyll-spaceship
-  - jekyll-datapage-generator
+  - jekyll-data-pages
 
 # Where things are
 jekyll-spaceship:
