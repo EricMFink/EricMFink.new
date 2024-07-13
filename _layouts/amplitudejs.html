@@ -148,7 +148,7 @@ Amplitude.init({
     32: 'play_pause'
 	},
 	"songs": [
-    {% for song in site.data.{{ page.playlist }} %}{
+    {% for song in site.data.[page.playlist] %}{
     "name": "{{ song.title }}",
 	"album": "{{ song.album }}",
     "url": "{{ song.file }}.mp3",

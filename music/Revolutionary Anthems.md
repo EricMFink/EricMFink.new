@@ -1,5 +1,5 @@
 ---
-layout: amplitudejs
+layout: amplitudejs-playlist
 permalink: /Revolutionary Ballads/
 title: "Revolutionary Ballads, Labor Hymns, & Sectarian Satire"
 playlist: RevolutionaryBallads 
