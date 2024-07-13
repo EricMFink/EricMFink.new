@@ -185,8 +185,8 @@ Amplitude.init({
   "songs": [
 	{% for song in site.data.songs[page.playlist] %}
 	{
-     "name": "{{ song.title }}",
-  	 "album": "{{ song.album }}",
+    "name": "{{ song.title }}",
+  	"album": "{{ song.album }}",
     "url": "{{ site.baseurl }}/assets/music/{{ page.playlist }}/{{ page.file }}.mp3",
     "cover_art_url": "{{ site.baseurl }}/assets/music/{{ page.playlist }}/cover.png"
 	},

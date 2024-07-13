@@ -70,7 +70,7 @@ div#list-screen {
         width: calc(100% - 80px); }
         div#list-screen div#list div.song div.song-meta-container span.song-name {
           font-family: adelle-sans, Lato, sans-serif;
-          font-size: 1.3rem;
+          font-size: 1rem;
           line-height: 1;
           color: #fffff8;
           display: block; }
