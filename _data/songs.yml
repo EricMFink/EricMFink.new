@@ -2,52 +2,52 @@ TiredAndHungry:
   - title: New Paint
     album: Tired & Hungry & Looking for My Youth
     file: NewPaint
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '0'
   - title: Clay Pigeons
     album: Tired & Hungry & Looking for My Youth
     file: ClayPigeons
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '1'
   - title: Blues Run the Game
     album: Tired & Hungry & Looking for My Youth
     file: BluesRunTheGame
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '2'
   - title: If That's Alright
     album: Tired & Hungry & Looking for My Youth
     file: IfThatsAlright
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '3'
   - title: 'Ballrooms of Mars'
     album: Tired & Hungry & Looking for My Youth
     file: BallroomsofMars
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '4'
   - title: Someone Else's Song
     album: Tired & Hungry & Looking for My Youth
     file: SomeoneElsesSong
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '5'
   - title: Just Like Tom Thumb's Blues
     album: Tired & Hungry & Looking for My Youth
     file: 'JustLikeTomThumbsBlues'
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '6'
   - title: One Way Ticket Home
     album: Tired & Hungry & Looking for My Youth
     file: 'OneWayTicketHome'
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '7'
   - title: Sweet Revenge
     album: Tired & Hungry & Looking for My Youth
     file: 'SweetRevenge'
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '8'
   - title: God's Coffee
     album: Tired & Hungry & Looking for My Youth
     file: 'GodsCoffee'
-    playlist: Tired&Hungry
+    playlist: TiredAndHungry
     index: '9'
 
 Promise:

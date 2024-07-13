@@ -10,7 +10,7 @@
 2. Components
 */
 div#list-screen {
-  background-color: #141920;
+  background-color: #d5d8dc;
   position: absolute;
   top: 0;
   right: 0;
@@ -19,7 +19,7 @@ div#list-screen {
   z-index: 9999;
   display: none; }
   div#list-screen div#list-screen-header {
-    background-color: #141920;
+    background-color: #d5d8dc;
     padding: 15px;
     text-align: center;
     height: 50px;
@@ -42,7 +42,7 @@ div#list-screen {
     overflow-y: scroll; }
     div#list-screen div#list div.song {
       padding: 15px;
-      background-color: #242b33;
+      background-color: #2c3e50;
       margin-bottom: 1px;
       cursor: pointer;
       line-height: 1.5; }
@@ -156,7 +156,7 @@ div#list-screen {
         margin-top: 4px; }
 
 div.player-header {
-  background-color: #192029;
+  background-color: #191919;
   padding: 15px;
   text-align: center;
   height: 50px;
@@ -181,7 +181,7 @@ div#player-top {
 div#player-progress-bar-container {
   width: 100%;
   height: 4px;
-  background-color: #000;
+  background-color: #191919;
   position: relative;
   margin-top: -6px; }
   div#player-progress-bar-container progress#song-played-progress {
@@ -230,7 +230,7 @@ div#player-progress-bar-container {
     background: rgba(255, 255, 255, 0.5); }
 
 div#player-middle {
-  background-color: #192029;
+  background-color: #191919;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
@@ -240,7 +240,7 @@ div#player-middle {
   div#player-middle div#time-container {
     color: white;
     width: 100%;
-    background-color: #000;
+    background-color: #191919;
     font-size: .8rem;
     font-weight: normal; }
     div#player-middle div#time-container span.amplitude-duration-time {
@@ -265,7 +265,7 @@ div#player-middle {
     line-height: 1; }
 
 div#player-bottom {
-  background-color: #192029;
+  background-color: #191919;
   padding-left: 15px;
   padding-right: 15px; }
   div#player-bottom div#control-container {
@@ -436,7 +436,7 @@ div#player-bottom {
       background: #cfd8dc;
       border-width: 15px 0;
       color: transparent;
-      border-color: #192029; }
+      border-color: #191919; }
     div#player-bottom div#volume-container input[type="range"].amplitude-volume-slider::-ms-fill-lower {
       background: transparent;
       border-radius: 2.6px; }
@@ -469,18 +469,18 @@ div#player-bottom {
   div#player-bottom div#volume-container input[type="range"].amplitude-volume-slider {
     margin-top: -4px;
     height: 30px;
-    background-color: #192029 !important; } }
+    background-color: #191919 !important; } }
 @media all and (-ms-high-contrast: none) {
   div#player-bottom div#volume-container *::-ms-backdrop,
   div#flat-black-player-container div#player-bottom div#volume-container input[type="range"].amplitude-volume-slider {
     margin-top: -8px;
-    background-color: #192029 !important;
-    background: #192029 !important; } }
+    background-color: #191919 !important;
+    background: #191919 !important; } }
 /*
   3. Layout
 */
 	body.amplitude {
-		background-color: $off-black;
+		background-color: #828282;
 		width: 100%;
 		max-width: 100%;
 		margin-top: auto;
