@@ -2,106 +2,110 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Eric M. Fink</title>
-	<meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="shortcut icon" href="https://www.emfink.net/assets/img/favicon.ico">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eric M. Fink</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="shortcut icon" href="https://www.emfink.net/assets/img/favicon.ico">
 
-  <!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/main.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/main.css">
 
-  <!-- Custom Icons -->
-	
-	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/academicons.css">
-	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/academicons.min.css">
-	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/fontawesome.css">
-	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/brands.css">  
-	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/solid.css">
+<!-- Custom Icons -->
 
-  <!-- Portada, Adelle, LFT Etica Mono -->
-	<link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/academicons.css">
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/academicons.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/fontawesome.css">
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/brands.css">  
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/solid.css">
 
-  <!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Portada, Adelle, LFT Etica Mono -->
+<link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
 
-  <!-- Amplitude JS -->
-	<script type="text/javascript" src="https://www.emfink.net/assets/js/amplitude.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/amplitudejs.css" />
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Amplitude JS -->
+<script type="text/javascript" src="https://www.emfink.net/assets/js/amplitude.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/amplitudejs.css" />
 
 </head>
 
 <body class="amplitude">
-	{% include header.html %}
+
+	
+<header class="site-header">
+<a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><span class="site-title">{{ site.title }}</span></a>
+</header>
 
 <div class="amplitude-page-container">
 
-	<div id="flat-black-player-container">
-		<div id="list-screen" class="slide-in-top">
-			<div id="list-screen-header" class="hide-playlist"></div>
-			<div id="list"></div>
-			<div id="list-screen-footer">
-				<div id="list-screen-meta-container">
-					<span data-amplitude-song-info="name" class="song-name"></span>
-					<div class="song-artist-album">
-						<span data-amplitude-song-info="artist"></span>
-					</div>
-				</div>
-				<div class="list-controls">
-					<div class="list-previous amplitude-prev"></div>
-					<div class="list-play-pause amplitude-play-pause"></div>
-					<div class="list-next amplitude-next"></div>
-				</div>
-			</div>
-		</div>
-		<div id="player-screen">
-			<div class="player-header down-header"></div>
-			<div id="player-top">
-				<img data-amplitude-song-info="cover_art_url" />
-			</div>
-			<div id="player-progress-bar-container">
-				<progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
-				<progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
-			</div>
-			<div id="player-middle">
-				<div id="time-container">
-					<span class="amplitude-current-time time-container"></span>
-					<span class="amplitude-duration-time time-container"></span>
-				</div>
-				<div id="meta-container">
-					<span data-amplitude-song-info="name" class="song-name"></span>
-				</div>
-			</div>
-			<div id="player-bottom">
-				<div id="control-container">
+<div id="flat-black-player-container">
+<div id="list-screen" class="slide-in-top">
+<div id="list-screen-header" class="hide-playlist"></div>
+<div id="list"></div>
+<div id="list-screen-footer">
+<div id="list-screen-meta-container">
+<span data-amplitude-song-info="name" class="song-name"></span>
+<div class="song-artist-album">
+<span data-amplitude-song-info="artist"></span>
+</div>
+</div>
+<div class="list-controls">
+<div class="list-previous amplitude-prev"></div>
+<div class="list-play-pause amplitude-play-pause"></div>
+<div class="list-next amplitude-next"></div>
+</div>
+</div>
+</div>
+<div id="player-screen">
+<div class="player-header down-header"></div>
+<div id="player-top">
+<img data-amplitude-song-info="cover_art_url" />
+</div>
+<div id="player-progress-bar-container">
+<progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+<progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+</div>
+<div id="player-middle">
+<div id="time-container">
+<span class="amplitude-current-time time-container"></span>
+<span class="amplitude-duration-time time-container"></span>
+</div>
+<div id="meta-container">
+<span data-amplitude-song-info="name" class="song-name"></span>
+</div>
+</div>
+<div id="player-bottom">
+<div id="control-container">
 
-					<div id="shuffle-container"></div>
+<div id="shuffle-container"></div>
 
-					<div id="prev-container"></div>
+<div id="prev-container"></div>
 
-					<div id="play-pause-container">
-						<div class="amplitude-play-pause" id="play-pause"></div>
-					</div>
+<div id="play-pause-container">
+<div class="amplitude-play-pause" id="play-pause"></div>
+</div>
 
-					<div id="next-container"></div>
+<div id="next-container"></div>
 
-					<div id="download-container">
-						<a href="{{ page.file }}.mp3" download="">
-						<button class="larger"><i class="fa fa-download"></i> </button>
-						</a>	
-					</div>
+<div id="download-container">
+<a href="{{ page.file }}.mp3" download="">
+<button class="larger"><i class="fa fa-download"></i> </button>
+</a>	
+</div>
 
-				</div>
+</div>
 
-				<div id="volume-container">
-					<img src="{{ site.baseurl }}/assets/img/amplitudejs/volume.svg" /><input type="range" class="amplitude-volume-slider" step=".1" />
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="volume-container">
+<img src="{{ site.baseurl }}/assets/img/amplitudejs/volume.svg" /><input type="range" class="amplitude-volume-slider" step=".1" />
+</div>
+</div>
+</div>
+</div>
 </div>
 
 <script type="text/javascript">
