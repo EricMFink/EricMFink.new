@@ -19,7 +19,21 @@ author:
 page_gen-dirs: false
 
 page_gen:
-- data: 'songs'
+- data: 'songs.Tired&Hungry'
+  template: 'amplitudejs-single'
+  name: 'file'
+  extension: 'md'
+  title: 'title'
+  dir: 'music'
+
+- data: 'songs.Promise'
+  template: 'amplitudejs-single'
+  name: 'file'
+  extension: 'md'
+  title: 'title'
+  dir: 'music'
+  
+- data: 'songs.RevolutionaryBallads'
   template: 'amplitudejs-single'
   name: 'file'
   extension: 'md'
