@@ -8,6 +8,10 @@ title: Music
 
 <a href="{{ site.baseurl}}/music/TiredAndHungry"><img src="{{ site.baseurl}}/assets/music/TiredAndHungry/cover.png" alt="" width="320"/></a>
 
+<a href='{{ site.baseurl }}/assets//music/TiredAndHungry.zip' download="">
+<button class="large"><i class="fa fa-download"></i> </button>
+</a>
+
 <ul>
 {% for song in site.data.songs.TiredAndHungry %}<li><a href="{{ site.baseurl}}/music/{{ song.file }}">{{ song.title }}</a></li>{% endfor %}
 </ul>
@@ -16,6 +20,10 @@ title: Music
 
 <a href="{{ site.baseurl}}/music/PromiseWithACatch"><img src="{{ site.baseurl}}/assets/music/PromiseWithACatch/cover.png" alt="" width="320"/></a>
 
+<a href='{{ site.baseurl }}/assets//music/PromiseWithACatch.zip' download="">
+<button class="large"><i class="fa fa-download"></i> </button>
+</a>
+
 <ul>
 {% for song in site.data.songs.PromiseWithACatch %}<li><a href="{{ site.baseurl}}/music/{{ song.file }}">{{ song.title }}</a></li>{% endfor %}
 </ul>
@@ -23,6 +31,10 @@ title: Music
 #### [Revolutionary Ballads, Labor Hymns, & Sectarian Satire]({{ site.baseurl}}/music/RevolutionaryBallads)
 
 <a href="{{ site.baseurl}}/music/RevolutionaryBallads"><img src="{{ site.baseurl}}/assets/music/RevolutionaryBallads/cover.png" alt="" width="320"/></a>
+
+<a href='{{ site.baseurl }}/assets//music/RevolutionaryBallads.zip' download="">
+<button class="large"><i class="fa fa-download"></i> </button>
+</a>
 
 <ul>
 {% for song in site.data.songs.RevolutionaryBallads %}<li><a href="{{ site.baseurl}}/music/{{ song.file }}">{{ song.title }}</a></li>{% endfor %}
