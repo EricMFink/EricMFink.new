@@ -2,7 +2,7 @@
 url: https://www.emfink.net # base hostname
 # baseurl: 
 title: Eric M. Fink
-last_updated: 13 July 2024
+last_updated: 17 July 2024
 
 author:
   name: Eric M. Fink
@@ -26,7 +26,7 @@ page_gen:
   title: 'title'
   dir: 'music'
 
-- data: 'songs.Promise'
+- data: 'songs.PromiseWithACatch'
   template: 'amplitudejs-single'
   name: 'file'
   extension: 'html'

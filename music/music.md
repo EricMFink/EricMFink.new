@@ -14,10 +14,10 @@ title: Music
 
 #### [A Promise With A Catch]({{ site.baseurl}}/music/PromiseWithACatch)
 
-<a href="{{ site.baseurl}}/music/Promise"><img src="{{ site.baseurl}}/assets/music/Promise/cover.png" alt="" width="320"/></a>
+<a href="{{ site.baseurl}}/music/PromiseWithACatch"><img src="{{ site.baseurl}}/assets/music/PromiseWithACatch/cover.png" alt="" width="320"/></a>
 
 <ul>
-{% for song in site.data.songs.Promise %}<li><a href="{{ site.baseurl}}/music/{{ song.file }}">{{ song.title }}</a></li>{% endfor %}
+{% for song in site.data.songs.PromiseWithACatch %}<li><a href="{{ site.baseurl}}/music/{{ song.file }}">{{ song.title }}</a></li>{% endfor %}
 </ul>
 
 #### [Revolutionary Ballads, Labor Hymns, & Sectarian Satire]({{ site.baseurl}}/music/RevolutionaryBallads)
