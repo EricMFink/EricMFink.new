@@ -2,10 +2,10 @@ $serif-font: portada, serif;
 $sans-font:  adelle-sans, sans-serif;
 $body-font: $serif-font;
 $heading-font: $sans-font;
-$serif-heading-font: portada, serif;
-$sidenotes-font: portada, serif;
-$marginnotes-font: adelle-sans, sans-serif;
-$japanese-font: TakaoPGothic, "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+$serif-heading-font: $serif-font;
+$sidenotes-font: $serif-font;
+$marginnotes-font: $sans-font;
+$japanese-font: TakaoPGothic, "Noto Sans JP", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
 $mono-font: lft-etica-mono,Inconsolata,Consolas,Courier, monospace;
 $vita-font: "athelas", serif;
 
