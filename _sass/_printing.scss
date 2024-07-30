@@ -169,6 +169,7 @@
 	}
 	
 	p,
+	blockquote,
 	h2,
 	h3 {
 	  orphans: 4;
@@ -177,6 +178,11 @@
 
 	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
 	  page-break-after: avoid;
+	}
+
+	.legal-code {
+	  orphans: 4;
+	  widows: 4;
 	}
 
 	.leftalign {
