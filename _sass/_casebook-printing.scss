@@ -318,6 +318,14 @@
 	li {
 		text-align: justify;
 	}
+	.comment {
+		font-family: $sans-font;
+		margin: 5rem 0;
+		padding-bottom: 1rem;
+		background-color: $azure;
+		border-top: none;
+		border-bottom: none;
+	}
 	.comment ul { 
 		list-style-type: disc;
 	}
