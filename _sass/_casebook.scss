@@ -165,6 +165,9 @@ p.case-h4 {
 .comment h6 {
 	font-family: $sans-font;
 }
+.comment ul { 
+	list-style-type: disc;
+}
 /* LEGAL CODE: Indented subsections in statutes, etc. */
 
 /* Title and cite of incorporated materials */
