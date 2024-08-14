@@ -58,6 +58,9 @@
 		break-after: avoid;
 		string-set: chapter_title content();
 	}
+	.casebook h1:before {
+		content: "Chapter " counter(chapter) ": ";
+	}
 	h2 {
 		font-size: 20pt;
 		font-weight: $normal-weight;
@@ -347,11 +350,11 @@
 	}
 	.sidenote { 
 		font-size: 8pt;
-		font-weight: $normal-weight;
+		font-weight: $light-weight;
 	}
 	.marginnote {
 		font-size: 8pt;
-		font-weight: $normal-weight;
+		font-weight: $light-weight;
 	}
 	blockquote .sidenote, blockquote .marginnote {
 		margin: 0 0 4pt 0;
