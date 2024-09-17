@@ -255,13 +255,17 @@ p.case-h4 {
 }
 #table-of-contents li, #table-of-contents ul, #table-of-contents ul li {
 	font-family: $sans-font;
-	font-size: $smallest-size;
+	font-size: $tiny-size;
     list-style: outside none none !important;
 	width: auto;
 	padding: 0 0 0 0;
     margin-top: 0;
     margin-bottom: 0;
     line-height: $shorter-line-height;
+}
+#table-of-contents ul {
+	max-height: 90vh;
+	overflow-y: scroll;
 }
 li.toc-li-H1 {
     margin: 0 0 0 0;
