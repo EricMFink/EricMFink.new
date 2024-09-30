@@ -10,3 +10,8 @@ gem 'gemoji'
 gem "webrick", "~> 1.8"
 gem 'nokogiri'
 gem 'jekyll-data-pages'
+gem 'commonmarker'
+gem 'pristine ffi'
+gem 'pristine racc'
+gem 'pristine sass-embedded'
+gem 'pristine unf_ext'
