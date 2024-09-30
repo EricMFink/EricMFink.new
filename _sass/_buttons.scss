@@ -33,7 +33,7 @@
     background: $theme-color;
     cursor: pointer;
 	&:hover{
-		background: darken($theme-color, 20%)
+		background: color.adjust($theme-color, $lightness: -20%)
 	}
 	&.smaller{
 		padding:7px 10px;
@@ -57,7 +57,7 @@
 		color:#FFF;
 		background:$theme-color;
 		&:hover{
-			background: darken($theme-color, 3%);
+			background: color.adjust($theme-color, $lightness: -3%);
 		}
 	}
 	&.syllabus{
@@ -65,21 +65,21 @@
 		color: $off-white;
 		background: $theme-color;
 		&:hover{
-			background: darken($theme-color, 20%);
+			background: color.adjust($theme-color, $lightness: -20%);
 		}
 	}
 	&.success{
 		color:#FFF;
 		background: $success;
 		&:hover{
-			background: darken($success, 3%);
+			background: color.adjust($success, $lightness: -3%);
 		}
 	}
 	&.danger{
 		color:#FFF;
 		background: $danger;
 		&:hover{
-			background:darken($danger, 3%);
+			background:color.adjust($danger, $lightness: -3%);
 		}
 	}
 }
