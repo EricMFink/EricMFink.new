@@ -4,16 +4,16 @@
 	margin:10px 0;
 	border-radius:3px;
 	&.primary{
-		background:color.adjust($primary, $lightness: 40%);
-		border:1px color.adjust($primary, $lightness: 30%) solid;
+		background:lighten($primary, 40%);
+		border:1px lighten($primary, 30%) solid;
 	}
 	&.success{
-		background:color.adjust($success, $lightness: 40%);
-		border:1px color.adjust($success, $lightness: 30%) solid;
+		background:lighten($success, 40%);
+		border:1px lighten($success, 30%) solid;
 	}
 	&.danger{
-		background:color.adjust($danger, $lightness: 40%);
-		border:1px color.adjust($danger, $lightness: 30%) solid;
+		background:lighten($danger, 40%);
+		border:1px lighten($danger, 30%) solid;
 	}
 }
 .button {
