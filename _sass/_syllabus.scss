@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .syllabus {
     padding-top: .5rem;
 	max-width: 40em;
@@ -46,7 +48,7 @@
     color: $theme-color;
     text-decoration: none;
     &:hover {
-		color:darken($theme-color, 50%);
+		color:color.adjust($theme-color, $lightness: -50%);
 	    text-decoration: underline;
     }
 }
