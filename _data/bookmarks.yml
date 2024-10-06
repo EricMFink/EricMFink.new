@@ -16,7 +16,7 @@ left:
 - title: Syncthing
   url: 'http://127.0.0.1:8384/'
 - title: Jellyfin (tailscale)
-  url: 'http://100.100.216.107:8096'
+  url: 'http://100.91.210.1:8096'
 
 middle:
 - title: Elon Law
