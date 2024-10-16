@@ -17,6 +17,8 @@ left:
   url: 'http://127.0.0.1:8384/'
 - title: Jellyfin (tailscale)
   url: 'http://100.91.210.1:8096'
+- title: Navidrome (tailscale)
+  url: 'http://100.91.210.1:4533'
 
 middle:
 - title: Elon Law
