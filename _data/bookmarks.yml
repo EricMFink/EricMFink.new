@@ -7,6 +7,8 @@ left:
   url: 'https://drive.google.com/drive/my-drive'
 - title: Maps
   url: 'https://www.google.com/maps'
+- title: Voice
+  url: 'https://voice.google.com'
 - title: Pocket
   url: 'https://app.getpocket.com/'
 - title: Amazon
@@ -15,8 +17,6 @@ left:
   url: 'https://login.tailscale.com/admin/machines'
 - title: Syncthing
   url: 'http://127.0.0.1:8384/'
-- title: Jellyfin (tailscale)
-  url: 'http://100.91.210.1:8096'
 
 middle:
 - title: Elon Law
