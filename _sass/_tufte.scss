@@ -11,7 +11,7 @@
 	position: relative;
 	}
   .sidenote {
-	font-family: portada, serif;
+	font-family: $serif-font, serif;
 	font-size: 0.7rem;
 	font-weight: 300;
 	}
@@ -25,7 +25,7 @@
 	}
   .sidenote-number:after, .sidenote:before {
 	content: counter(sidenote-counter) " ";
-	font-family: portada, serif;
+	font-family: $serif-font, serif;
 	color: #b03a2e;
 	position: relative;
 	}
@@ -41,7 +41,7 @@
 	top: 0rem;
 	}
   .marginnote {
-	font-family: adelle-sans, sans-serif;
+	font-family: $sans-font, sans-serif;
 	font-size: 0.7rem;
 	font-weight: 300;
 	color: #006400;

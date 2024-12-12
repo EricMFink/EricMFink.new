@@ -13,7 +13,7 @@
 /* Preface */
 .preface h1 {
 	color: $dull-red;
-	font-family: adelle-sans, sans-serif;
+	font-family: $sans-font, sans-serif;
 	font-weight: $normal-weight;
 }
 /* Chapter */
@@ -22,7 +22,7 @@
 }
 .casebook h1 {
 	color: $dull-red;
-	font-family: adelle-sans, sans-serif;
+	font-family: $sans-font, sans-serif;
 	font-weight: $normal-weight;
 	counter-increment: chapter;  /* Add 1 to chapter */
     counter-reset: section;      /* Set section to 0 */
