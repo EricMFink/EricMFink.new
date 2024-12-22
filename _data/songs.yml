@@ -158,3 +158,10 @@ RevolutionaryBallads:
   file: YourFlagDecalWontGetYouIntoHeavenAnymore
   playlist: RevolutionaryBallads
   index: '1'
+
+Other:
+- title: Christmas in Prison
+  album: Revolutionary Ballads, Labor Hymns, & Sectarian Satire
+  file: ChristmasinPrison
+  playlist: RevolutionaryBallads
+  index: '0'
