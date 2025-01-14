@@ -1,6 +1,6 @@
 ---
 layout: vita
-updated: '26 March 2024'
+updated: '13 January 2025'
 title: Vita
 permalink: /vita/
 pdf: /assets/pdf/vita.pdf
