@@ -31,7 +31,7 @@ output:
 - Tenure awarded 2012
 - Jennings Professor and Emerging Scholar, 2010-2012
 
-#### Teaching 2023-24
+#### Teaching 2024-25
 
 - [Civil Procedure](https://www.emfink.net/CivPro)
 - [Professional Responsibility](https://www.emfink.net/ProfessionalResponsibility)
@@ -130,6 +130,10 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 - Legal Consciousness in the Second Life Virtual World (May 2010)
 
 # Public Talks & Workshops
+
+## North Carolina Bar Association 
+
+- CLE Program: Ethical Issues in Guardianship Practice (October 2024)
 
 ## Incarcerated Worker Organizing Project 
 
@@ -277,7 +281,7 @@ NC State Bar Ethics Committee, Advisory Member (2011-2013)
 
 ## State
 
-California (Inactive)
+California 
 
 Pennsylvania (Retired Status)
 
